@@ -1,7 +1,7 @@
 # test coverage for  [react-bootstrap (v0.30.8)](https://react-bootstrap.github.io/)  [![npm package](https://img.shields.io/npm/v/npmtest-react-bootstrap.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-bootstrap) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-bootstrap.svg)](https://travis-ci.org/npmtest/node-npmtest-react-bootstrap)
 #### Bootstrap 3 components built with React
 
-[![NPM](https://nodei.co/npm/react-bootstrap.png?downloads=true)](https://www.npmjs.com/package/react-bootstrap)
+[![NPM](https://nodei.co/npm/react-bootstrap.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-bootstrap)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-react-bootstrap/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-bootstrap/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-bootstrap/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-bootstrap/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-bootstrap/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-bootstrap/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-react-bootstrap/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-react-bootstrap/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-react-bootstrap/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-react-bootstrap/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-react-bootstrap%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-react-bootstrap/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-bootstrap/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-react-bootstrap/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-react-bootstrap/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-react-bootstrap%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-bootstrap/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-react-bootstrap/build/test-report.html](https://npmtest.github.io/node-npmtest-react-bootstrap/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-react-bootstrap/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-react-bootstrap/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-react-bootstrap/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-react-bootstrap/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-react-bootstrap/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-bootstrap/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-react-bootstrap/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +33,7 @@
 
 {
     "author": {
-        "name": "Stephen J. Collings",
-        "email": "stevoland@gmail.com"
+        "name": "Stephen J. Collings"
     },
     "bugs": {
         "url": "https://github.com/react-bootstrap/react-bootstrap/issues"
@@ -146,20 +151,16 @@
     "main": "lib/index.js",
     "maintainers": [
         {
-            "name": "stevoland",
-            "email": "stevoland@gmail.com"
+            "name": "stevoland"
         },
         {
-            "name": "mtscout6",
-            "email": "mtscout6@gmail.com"
+            "name": "mtscout6"
         },
         {
-            "name": "taion",
-            "email": "tesrin@gmail.com"
+            "name": "taion"
         },
         {
-            "name": "monastic.panic",
-            "email": "monastic.panic@gmail.com"
+            "name": "monastic.panic"
         }
     ],
     "module": "es/index.js",
@@ -169,7 +170,6 @@
         "react": ">=0.14.0",
         "react-dom": ">=0.14.0"
     },
-    "readme": "ERROR: No README data found!",
     "release-script": {
         "bowerRepo": "git@github.com:react-bootstrap/react-bootstrap-bower.git",
         "docsRepo": "git@github.com:react-bootstrap/react-bootstrap.github.io.git"

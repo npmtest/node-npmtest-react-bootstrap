@@ -1,4 +1,7 @@
-# test coverage for  [react-bootstrap (v0.30.8)](https://react-bootstrap.github.io/)  [![npm package](https://img.shields.io/npm/v/npmtest-react-bootstrap.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-bootstrap) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-bootstrap.svg)](https://travis-ci.org/npmtest/node-npmtest-react-bootstrap)
+# npmtest-react-bootstrap
+
+#### basic test coverage for  [react-bootstrap (v0.30.10)](https://react-bootstrap.github.io/)  [![npm package](https://img.shields.io/npm/v/npmtest-react-bootstrap.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-bootstrap) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-bootstrap.svg)](https://travis-ci.org/npmtest/node-npmtest-react-bootstrap)
+
 #### Bootstrap 3 components built with React
 
 [![NPM](https://nodei.co/npm/react-bootstrap.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-bootstrap)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-bootstrap/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-react-bootstrap/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-bootstrap/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-bootstrap/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-bootstrap/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-bootstrap/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-react-bootstrap/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-react-bootstrap/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-bootstrap/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-bootstrap/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-react-bootstrap/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-react-bootstrap/build/coverage.html/index.html)
 
@@ -44,6 +47,7 @@
         "dom-helpers": "^3.2.0",
         "invariant": "^2.2.1",
         "keycode": "^2.1.2",
+        "prop-types": "^15.5.6",
         "react-overlays": "^0.6.12",
         "react-prop-types": "^0.4.0",
         "uncontrollable": "^4.0.1",
@@ -129,8 +133,8 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "4ceca8e138ce2351228c4a58d59db00c003ca9c0",
-        "tarball": "https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-0.30.8.tgz"
+        "shasum": "dbba6909595f2af4d91937db0f96ec8c2df2d1a8",
+        "tarball": "https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-0.30.10.tgz"
     },
     "files": [
         "CHANGELOG.md",
@@ -138,7 +142,7 @@
         "dist",
         "es"
     ],
-    "gitHead": "6adbf8a4756b0e14c4417e52e7befb88b258e6ca",
+    "gitHead": "5d3a9e823f0a85c5f8921a55dc77a29f0c467066",
     "homepage": "https://react-bootstrap.github.io/",
     "jsnext:main": "es/index.js",
     "keywords": [
@@ -191,7 +195,8 @@
         "test-browser": "cross-env NODE_ENV=test karma start --single-run",
         "test-node": "mocha --compilers js:babel-register test/server/*Spec.js"
     },
-    "version": "0.30.8"
+    "version": "0.30.10",
+    "bin": {}
 }
 ```
 
